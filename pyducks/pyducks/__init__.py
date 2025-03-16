@@ -1,7 +1,7 @@
 import warnings
 from typing import Any, Callable, Tuple, Generic, TypeVar, Optional, Union
 from copy import  copy
-from pyducks.sebulvents.EventDispatcher import ValueDispatcher
+from pyducks.events.EventDispatcher import ValueDispatcher
 from dataclasses import dataclass
 from pyducks.immer import Proxy
 

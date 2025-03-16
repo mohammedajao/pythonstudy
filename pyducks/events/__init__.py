@@ -1,5 +1,5 @@
 
-from pyducks.sebulvents.Signals import SignalContext, ComputedContext, EffectContext, Signal, ComputedSignal, ComputedFactoryCallable
+from pyducks.events.Signals import SignalContext, ComputedContext, EffectContext, Signal, ComputedSignal, ComputedFactoryCallable
 from typing import Callable, TypeVar
 
 TValue = TypeVar('TValue')
