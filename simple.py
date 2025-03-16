@@ -1,5 +1,5 @@
 import time
-from pyducks.pyducks import PyducksStore, ActionableStateItem, combineReducers
+from pyducks import PyducksStore, ActionableStateItem, combineReducers
 from pyducks.immer import Proxy as ImmerProxy, produce
 from dataclasses import dataclass
 

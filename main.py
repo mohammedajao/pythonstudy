@@ -1,4 +1,4 @@
-from pyducks.pyducks import ActionReducerMapBuilder, PyducksState, createReducer, PyducksStore, ActionableStateItem, combineReducers, PyducksReducer
+from pyducks import ActionReducerMapBuilder, PyducksState, createReducer, PyducksStore, ActionableStateItem, combineReducers, PyducksReducer
 from pyducks.immer import Proxy
 from pyducks.immer.attr import s
 from typing import Optional
@@ -12,6 +12,7 @@ You can ignore this file.
 It was a test to see if an AI model could accurately use my code to generate a battle log.
 The model was able to do so, but the code went through a few changes so it'll break.
 Check simple.py for a simpler example.
+Check simple_2.py for a manually coded example akin to this one that works.
 """
 
 class BattleActionType(Enum):
